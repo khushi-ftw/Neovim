@@ -18,11 +18,11 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
-local ops = {
-	change_detection = {
-		notify = false
-	}
-}
+-- local ops = {
+	-- change_detection = {
+		-- notify = false
+	-- }
+-- }
 
 require("config.options")
 
